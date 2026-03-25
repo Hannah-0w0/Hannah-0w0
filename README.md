@@ -1,4 +1,6 @@
-
+<div align="center">
+  <img src="banner.svg" alt="Hannah's GitHub Banner"/>
+</div>
 
 ## 👩‍💻 About Me
 
@@ -31,17 +33,6 @@ I'm currently looking for a **Web Developer internship** where I can apply what 
 ### Cloud & Networking
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Networking](https://img.shields.io/badge/Networks_%26_Switching-0078D4?style=flat-square&logo=cisco&logoColor=white)
-
----
-
-## 📚 What I've Studied
-
-| Area | Topics |
-|---|---|
-| ☁️ **Cloud Computing** | AWS architecture, VPC, EC2, S3, load balancing, IAM, serverless (COS20019) |
-| 🌐 **Networks & Switching** | OSI model, TCP/IP, subnetting, VLANs, STP, switching, network security (TNE10006) |
-| 🌍 **Web Technology** | Full-stack PHP/MySQL development, responsive HTML/CSS, REST principles |
-| 🎨 **Programming** | C, C++, C#, Python — data structures, OOP, GUI applications |
 
 ---
 
@@ -87,6 +78,3 @@ A graphical paint application built from scratch in C with freehand drawing, sha
 
 ---
 
-<div align="center">
-  <i>"First, solve the problem. Then, write the code."</i>
-</div>

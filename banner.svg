@@ -1,0 +1,154 @@
+<svg width="100%" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+@keyframes runCat{0%{transform:translateX(-80px)}100%{transform:translateX(760px)}}
+@keyframes runDog{0%{transform:translateX(-140px)}100%{transform:translateX(760px)}}
+@keyframes runBun{0%{transform:translateX(-200px)}100%{transform:translateX(760px)}}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes tailWag{0%,100%{transform:rotate(-15deg)}50%{transform:rotate(15deg)}}
+@keyframes earWig{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@keyframes legRun{0%,100%{transform:rotate(-20deg)}50%{transform:rotate(20deg)}}
+.l1{animation:fadeUp .5s .1s ease both}
+.l2{animation:fadeUp .5s .35s ease both}
+.l3{animation:fadeUp .5s .6s ease both}
+.cur{animation:blink 1s .9s step-end infinite}
+.cat-run{animation:runCat 4s -1s linear infinite}
+.dog-run{animation:runDog 5.5s -2s linear infinite}
+.bun-run{animation:runBun 7s -3.5s linear infinite}
+.bounce-body{animation:bounce .25s linear infinite}
+.bounce-body-slow{animation:bounce .35s linear infinite}
+.tail{transform-origin:0px 0px;animation:tailWag .2s linear infinite}
+.tail-slow{transform-origin:0px 0px;animation:tailWag .35s linear infinite}
+.ear{transform-origin:4px 12px;animation:earWig .4s linear infinite}
+.leg-f{transform-origin:4px 0px;animation:legRun .25s linear infinite}
+.leg-b{transform-origin:4px 0px;animation:legRun .25s .12s linear infinite}
+.leg-fs{transform-origin:4px 0px;animation:legRun .35s linear infinite}
+.leg-bs{transform-origin:4px 0px;animation:legRun .35s .17s linear infinite}
+</style>
+</defs>
+<rect width="680" height="200" rx="14" fill="#1a1730"/>
+<circle cx="60"  cy="20" r="1"   fill="#AFA9EC" opacity=".6"/>
+<circle cx="120" cy="35" r="1.5" fill="#AFA9EC" opacity=".4"/>
+<circle cx="200" cy="15" r="1"   fill="#EEEDFE" opacity=".5"/>
+<circle cx="310" cy="25" r="1"   fill="#AFA9EC" opacity=".3"/>
+<circle cx="420" cy="18" r="1.5" fill="#EEEDFE" opacity=".5"/>
+<circle cx="530" cy="30" r="1"   fill="#AFA9EC" opacity=".4"/>
+<circle cx="620" cy="14" r="1"   fill="#EEEDFE" opacity=".6"/>
+<circle cx="650" cy="40" r="1"   fill="#AFA9EC" opacity=".3"/>
+<circle cx="80"  cy="48" r="1"   fill="#AFA9EC" opacity=".25"/>
+<circle cx="480" cy="42" r="1"   fill="#EEEDFE" opacity=".35"/>
+<line x1="0" y1="168" x2="680" y2="168" stroke="#534AB7" stroke-width="1.5" opacity=".5"/>
+<rect x="0" y="168" width="680" height="32" fill="#26215C" opacity=".5"/>
+<rect x="0" y="186" width="680" height="14" fill="#1a1730" opacity=".4"/>
+<g fill="#1D9E75" opacity=".7">
+  <path d="M40 168 Q43 158 46 168"/><path d="M44 168 Q47 162 50 168"/>
+  <path d="M130 168 Q133 160 136 168"/><path d="M134 168 Q137 155 140 168"/>
+  <path d="M250 168 Q253 161 256 168"/>
+  <path d="M370 168 Q373 157 376 168"/><path d="M374 168 Q377 163 380 168"/>
+  <path d="M490 168 Q493 159 496 168"/>
+  <path d="M590 168 Q593 162 596 168"/><path d="M594 168 Q597 156 600 168"/>
+  <path d="M640 168 Q643 160 646 168"/>
+</g>
+<g class="cat-run">
+  <g class="bounce-body">
+    <ellipse cx="30" cy="152" rx="18" ry="11" fill="#EF9F27"/>
+    <line x1="22" y1="144" x2="20" y2="162" stroke="#BA7517" stroke-width="1.2" opacity=".5"/>
+    <line x1="30" y1="142" x2="28" y2="162" stroke="#BA7517" stroke-width="1.2" opacity=".5"/>
+    <circle cx="50" cy="146" r="10" fill="#EF9F27"/>
+    <polygon points="44,138 47,130 51,138" fill="#EF9F27"/>
+    <polygon points="53,138 56,130 59,138" fill="#EF9F27"/>
+    <polygon points="45,138 47,132 50,138" fill="#F4C0D1" opacity=".8"/>
+    <polygon points="54,138 56,132 58,138" fill="#F4C0D1" opacity=".8"/>
+    <circle cx="47" cy="146" r="2" fill="#26215C"/>
+    <circle cx="54" cy="146" r="2" fill="#26215C"/>
+    <circle cx="48" cy="145.5" r=".7" fill="white"/>
+    <circle cx="55" cy="145.5" r=".7" fill="white"/>
+    <ellipse cx="51" cy="150" rx="1.5" ry="1" fill="#F4C0D1"/>
+    <line x1="52" y1="150" x2="62" y2="148" stroke="#EEEDFE" stroke-width=".8" opacity=".8"/>
+    <line x1="52" y1="151" x2="62" y2="152" stroke="#EEEDFE" stroke-width=".8" opacity=".8"/>
+    <line x1="50" y1="150" x2="40" y2="148" stroke="#EEEDFE" stroke-width=".8" opacity=".8"/>
+    <line x1="50" y1="151" x2="40" y2="153" stroke="#EEEDFE" stroke-width=".8" opacity=".8"/>
+    <g class="tail" style="transform-origin:12px 152px">
+      <path d="M12 152 Q-2 140 4 130" stroke="#EF9F27" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <circle cx="4" cy="130" r="4" fill="#EF9F27"/>
+    </g>
+    <g class="leg-f" style="transform-origin:40px 162px"><rect x="38" y="162" width="4" height="10" rx="2" fill="#EF9F27"/></g>
+    <g class="leg-b" style="transform-origin:44px 162px"><rect x="42" y="162" width="4" height="10" rx="2" fill="#EF9F27"/></g>
+    <g class="leg-f" style="transform-origin:18px 162px"><rect x="16" y="162" width="4" height="10" rx="2" fill="#EF9F27"/></g>
+    <g class="leg-b" style="transform-origin:22px 162px"><rect x="20" y="162" width="4" height="10" rx="2" fill="#EF9F27"/></g>
+    <line x1="-5" y1="148" x2="-18" y2="148" stroke="#EF9F27" stroke-width="1.5" opacity=".4" stroke-linecap="round"/>
+    <line x1="-5" y1="153" x2="-22" y2="153" stroke="#EF9F27" stroke-width="1"   opacity=".25" stroke-linecap="round"/>
+    <line x1="-5" y1="158" x2="-15" y2="158" stroke="#EF9F27" stroke-width="1"   opacity=".2"  stroke-linecap="round"/>
+  </g>
+</g>
+<g class="dog-run">
+  <g class="bounce-body-slow">
+    <ellipse cx="30" cy="153" rx="20" ry="12" fill="#FAC775"/>
+    <circle cx="52" cy="147" r="12" fill="#FAC775"/>
+    <ellipse cx="44" cy="150" rx="5" ry="9" fill="#EF9F27" transform="rotate(-15,44,143)"/>
+    <ellipse cx="61" cy="150" rx="5" ry="9" fill="#EF9F27" transform="rotate(15,61,143)"/>
+    <circle cx="49" cy="145" r="2.5" fill="#26215C"/>
+    <circle cx="57" cy="145" r="2.5" fill="#26215C"/>
+    <circle cx="50" cy="144" r=".9" fill="white"/>
+    <circle cx="58" cy="144" r=".9" fill="white"/>
+    <ellipse cx="53" cy="151" rx="5" ry="3.5" fill="#F5C4B3"/>
+    <ellipse cx="53" cy="149" rx="2" ry="1.5" fill="#26215C"/>
+    <path d="M50 152 Q53 155 56 152" stroke="#993C1D" stroke-width=".8" fill="none"/>
+    <ellipse cx="53" cy="155" rx="3" ry="2" fill="#D4537E"/>
+    <g class="tail-slow" style="transform-origin:10px 150px">
+      <path d="M10 150 Q-4 138 2 126" stroke="#FAC775" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </g>
+    <g class="leg-fs" style="transform-origin:42px 164px"><rect x="39" y="164" width="6" height="12" rx="3" fill="#FAC775"/></g>
+    <g class="leg-bs" style="transform-origin:48px 164px"><rect x="45" y="164" width="6" height="12" rx="3" fill="#FAC775"/></g>
+    <g class="leg-fs" style="transform-origin:18px 164px"><rect x="15" y="164" width="6" height="12" rx="3" fill="#FAC775"/></g>
+    <g class="leg-bs" style="transform-origin:24px 164px"><rect x="21" y="164" width="6" height="12" rx="3" fill="#FAC775"/></g>
+    <line x1="-5" y1="150" x2="-14" y2="150" stroke="#FAC775" stroke-width="1.5" opacity=".35" stroke-linecap="round"/>
+    <line x1="-5" y1="156" x2="-18" y2="156" stroke="#FAC775" stroke-width="1"   opacity=".2"  stroke-linecap="round"/>
+  </g>
+</g>
+<g class="bun-run">
+  <g class="bounce-body-slow">
+    <ellipse cx="24" cy="155" rx="15" ry="12" fill="#EEEDFE"/>
+    <circle cx="8" cy="155" r="5" fill="white"/>
+    <circle cx="40" cy="148" r="11" fill="#EEEDFE"/>
+    <g class="ear" style="transform-origin:36px 140px">
+      <ellipse cx="36" cy="128" rx="4" ry="13" fill="#EEEDFE"/>
+      <ellipse cx="36" cy="128" rx="2" ry="10" fill="#F4C0D1" opacity=".7"/>
+    </g>
+    <ellipse cx="44" cy="127" rx="4" ry="13" fill="#EEEDFE"/>
+    <ellipse cx="44" cy="127" rx="2" ry="10" fill="#F4C0D1" opacity=".7"/>
+    <circle cx="37" cy="148" r="2" fill="#534AB7"/>
+    <circle cx="44" cy="148" r="2" fill="#534AB7"/>
+    <circle cx="38" cy="147" r=".7" fill="white"/>
+    <circle cx="45" cy="147" r=".7" fill="white"/>
+    <ellipse cx="41" cy="152" rx="1.5" ry="1" fill="#F4C0D1"/>
+    <line x1="42" y1="152" x2="51" y2="150" stroke="#AFA9EC" stroke-width=".7" opacity=".8"/>
+    <line x1="42" y1="153" x2="51" y2="154" stroke="#AFA9EC" stroke-width=".7" opacity=".8"/>
+    <line x1="40" y1="152" x2="31" y2="150" stroke="#AFA9EC" stroke-width=".7" opacity=".8"/>
+    <g class="leg-fs" style="transform-origin:36px 165px"><ellipse cx="36" cy="165" rx="4" ry="7" fill="#EEEDFE"/></g>
+    <g class="leg-bs" style="transform-origin:42px 165px"><ellipse cx="42" cy="165" rx="4" ry="7" fill="#EEEDFE"/></g>
+    <g class="leg-bs" style="transform-origin:16px 164px"><ellipse cx="16" cy="164" rx="5" ry="8" fill="#EEEDFE"/></g>
+    <g class="leg-fs" style="transform-origin:22px 164px"><ellipse cx="22" cy="164" rx="5" ry="8" fill="#EEEDFE"/></g>
+    <line x1="-2" y1="152" x2="-12" y2="152" stroke="#AFA9EC" stroke-width="1.5" opacity=".3"  stroke-linecap="round"/>
+    <line x1="-2" y1="158" x2="-10" y2="158" stroke="#AFA9EC" stroke-width="1"   opacity=".2"  stroke-linecap="round"/>
+  </g>
+</g>
+<text class="l1" font-family="monospace" font-size="36" font-weight="700" fill="#EEEDFE" x="32" y="72">Hannah</text>
+<rect class="l1 cur" x="200" y="44" width="3" height="33" fill="#7F77DD" rx="1"/>
+<text class="l2" font-family="monospace" font-size="13" fill="#AFA9EC" x="34" y="98">CS Student · Web Developer · Kuching, Sarawak</text>
+<g class="l3">
+  <rect x="34"  y="110" width="52" height="20" rx="10" fill="#26215C"/>
+  <text font-family="monospace" font-size="10" fill="#AFA9EC" x="60"  y="124" text-anchor="middle">PHP</text>
+  <rect x="94"  y="110" width="58" height="20" rx="10" fill="#26215C"/>
+  <text font-family="monospace" font-size="10" fill="#AFA9EC" x="123" y="124" text-anchor="middle">MySQL</text>
+  <rect x="160" y="110" width="52" height="20" rx="10" fill="#26215C"/>
+  <text font-family="monospace" font-size="10" fill="#AFA9EC" x="186" y="124" text-anchor="middle">AWS</text>
+  <rect x="220" y="110" width="38" height="20" rx="10" fill="#26215C"/>
+  <text font-family="monospace" font-size="10" fill="#AFA9EC" x="239" y="124" text-anchor="middle">C</text>
+  <rect x="266" y="110" width="68" height="20" rx="10" fill="#3C3489"/>
+  <text font-family="monospace" font-size="10" fill="#EEEDFE" x="300" y="124" text-anchor="middle">Open to work</text>
+</g>
+<rect x="0" y="0" width="5" height="200" rx="3" fill="#7F77DD"/>
+</svg>

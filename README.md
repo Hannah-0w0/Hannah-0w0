@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="banner.svg" alt="Hannah's GitHub Banner"/>
-</div>
-
 ## 👩‍💻 About Me
 
 Hi! I'm Hannah, a **Bachelor of Computer Science** student at **Swinburne University of Technology Sarawak Campus**, Kuching. I enjoy building things for the web — from clean front-end interfaces to full-stack applications with databases and user authentication.
